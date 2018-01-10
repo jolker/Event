@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>event.game.thrift</artifactId>
+	
+	<parent>
+		<groupId>cc.blisscorp.sysmod</groupId>
+		<artifactId>system.module</artifactId>
+		<version>0.1.0</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>cc.blisscorp.sysmod</groupId>
+			<artifactId>event.game</artifactId>
+			<version>0.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.thrift</groupId>
+			<artifactId>libthrift</artifactId>
+			<version>0.8.0</version>
+		</dependency>
+		
+	</dependencies>
+	
+</project>
